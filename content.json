@@ -1,0 +1,59 @@
+{
+  "companyName": "Heera painting ltd",
+  "pageTitle": "Heera painting ltd - Professional Painters",
+  "contact": {
+    "phone": "(403) 123-4567",
+    "email": "contact@heerapainting.com",
+    "address": "Calgary, AB"
+  },
+  "hero": {
+    "title": "Calgary's Premier Painting Professionals",
+    "subtitle": "Quality Craftsmanship Your Family Can Trust.",
+    "buttonText": "Get a Free Estimate",
+    "backgroundImage": "/images/hero-bg.jpg"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Heera Painting?",
+    "subtitle": "We deliver an exceptional painting experience from start to finish.",
+    "features": [
+      {
+        "icon": "shield-check",
+        "title": "Licensed & Insured",
+        "description": "Peace of mind comes standard. We are fully licensed and insured for your protection."
+      },
+      {
+        "icon": "clipboard-list",
+        "title": "5-Year Warranty",
+        "description": "We stand by our work with a comprehensive 5-year warranty on all our projects."
+      },
+      {
+        "icon": "thumb-up",
+        "title": "Satisfaction Guaranteed",
+        "description": "Your satisfaction is our priority. We're not happy until you're thrilled with the result."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Painting Services",
+    "items": [
+      {
+        "title": "Interior Painting",
+        "description": "Transform your living spaces with a fresh, professional coat of paint.",
+        "image": "/images/service-interior.jpg",
+        "link": "#"
+      },
+      {
+        "title": "Exterior Painting",
+        "description": "Boost your curb appeal and protect your home from the elements.",
+        "image": "/images/service-exterior.jpg",
+        "link": "#"
+      },
+      {
+        "title": "Commercial Painting",
+        "description": "Professional, reliable, and efficient services for your business.",
+        "image": "/images/service-commercial.jpg",
+        "link": "#"
+      }
+    ]
+  }
+}
