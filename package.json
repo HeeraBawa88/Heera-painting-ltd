@@ -1,0 +1,20 @@
+{
+  "name": "heera-painting-ltd",
+  "version": "1.0.0",
+  "description": "Professional website for Heera Painting Ltd.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build-css": "npx tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
