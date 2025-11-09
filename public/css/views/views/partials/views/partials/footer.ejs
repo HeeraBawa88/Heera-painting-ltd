@@ -1,0 +1,35 @@
+<footer class="bg-gray-800 text-white" id="contact">
+    <div class="container mx-auto px-6 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+                <h3 class="text-xl font-bold mb-4"><%= content.companyName %></h3>
+                <p class="text-gray-400">Your trusted partner for professional painting services in Calgary.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul>
+                    <li class="mb-2"><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                    <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Gallery</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                <p class="text-gray-400"><%= content.contact.address %></p>
+                <p class="text-gray-400">Email: <a href="mailto:<%= content.contact.email %>" class="hover:text-white"><%= content.contact.email %></a></p>
+                <p class="text-gray-400">Phone: <a href="tel:<%= content.contact.phone %>" class="hover:text-white"><%= content.contact.phone %></a></p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <!-- Add social media links here in the future -->
+                    <a href="#" class="text-gray-400 hover:text-white">...</a>
+                    <a href="#" class="text-gray-400 hover:text-white">...</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500">
+            &copy; <%= new Date().getFullYear() %> <%= content.companyName %>. All Rights Reserved.
+        </div>
+    </div>
+</footer>
